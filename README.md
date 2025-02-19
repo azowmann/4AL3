@@ -5,7 +5,7 @@
 ### Each Assignment is described below:
 
 ## Table of Contents
-1. [Assignment1](##assignment-1:-GDP-vs-Happiness-and-Abalone-Age-Prediction)
+1. [Assignment 1: GDP vs Happiness and Abalone Age Prediction](#assignment-1-gdp-vs-happiness-and-abalone-age-prediction)
 2. [Usage](#usage)
 3. [Project Structure](#project-structure)
 4. [Implementation Details](#implementation-details)
