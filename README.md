@@ -89,10 +89,19 @@ The project is divided into three parts:
   - Training and validation loss curves are plotted for each part of the project.
  
 #### Results:
-- **Feature Experiment**:
-  - The results of the feature experiment are printed to the console, showing the mean and standard deviation of TSS scores for each feature set combination.
-  - Confusion matrices for each feature set combination are plotted, showing the true positive, false positive, true negative, and false negative rates.
-  - A plot of TSS scores across all folds for each feature set combination is displayed, allowing for visual comparison of model performance.
+- **Part 1: Stochastic Gradient Descent**:
+  - Training and Validation Loss: Plotted as a function of epochs.
+  - Early Stopping: Triggered when the loss improvement is below the threshold.
+  - Metrics: Accuracy, precision, and recall are computed on the test set.
+
+- **Part 2: Mini-Batch Gradient Descent**:
+  - Similar to Part 1, but uses mini-batches for weight updates.
+  - Batch Size: Set to 5.
+ 
+- **Part 3: Active Learning**:
+  - The model starts with a small labeled dataset and iteratively adds samples from the unlabeled dataset.
+  - Convergence: Training stops when the loss improvement is negligible.
+  - Metrics: Final accuracy, precision, and recall are reported.
 
 ## Table of Contents
 1. [Installation](#installation)
