@@ -7,7 +7,7 @@
 ## Table of Contents
 1. [Assignment 1: GDP vs Happiness and Abalone Age Prediction](#assignment-1-gdp-vs-happiness-and-abalone-age-prediction)
 2. [Assignment 2: Support Vector Machine (SVM) for Feature and Dataset Analysis](#assignment-2-support-vector-machine-svm-for-feature-and-dataset-analysis)
-3. [Project Structure](#project-structure)
+3. [Assignment 3: Support Vector Machine (SVM) Classifier for Breast Cancer Diagnosis](#assignment-3-support-vecotr-machine-svm-classifier-for-breast-cancer-diagnosis)
 4. [Implementation Details](#implementation-details)
 5. [Results](#results)
 
