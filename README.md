@@ -53,6 +53,47 @@ This project involves the implementation and evaluation of a Support Vector Mach
 
 ---
 
+### Assignment 3: Support Vector Machine (SVM) Classifier for Breast Cancer Diagnosis
+
+This project implements a Support Vector Machine (SVM) from scratch using Python and NumPy. The SVM is trained using two optimization techniques: Stochastic Gradient Descent (SGD) and Mini-Batch Gradient Descent. Additionally, an Active Learning approach is implemented to improve the model's performance by iteratively selecting the most informative samples from an unlabeled dataset.
+
+The project is divided into three parts:
+1. **Part 1**:  Implementation of SVM using Stochastic Gradient Descent.
+2. **Part 2**:  Implementation of SVM using Mini-Batch Gradient Descent.
+3. **Part 3**:  Implementation of Active Learning with SVM.
+
+#### Implementation Details:
+
+- **Data Preprocessing**:
+  - The dataset is normalized using StandardScaler from scikit-learn.
+  - The data is split into training and validation sets (80% training, 20% validation).
+
+- **SVM Class**:
+  - The svm_ class implements the core SVM functionality.
+  - **Initialization**: Weights are initialized to zero.
+  - **Gradient Computation**: The gradient is computed using the hinge loss function.
+  - **Loss Calculation**: Hinge loss with L2 regularization is used.
+  - **Training**: Supports both Stochastic Gradient Descent and Mini-Batch Gradient Descent.
+  - **Prediction**: Predicts labels for the test set and computes accuracy, precision, and recall.
+
+- **Training Methods**:
+  - **Stochastic Gradient Descent (SGD)**: Updates weights after each training sample.
+  - **Mini-Batch Gradient Descent:** Updates weights using small batches of data.
+  - **Early Stopping:** Training stops if the loss improvement falls below a threshold.
+
+- **Active Learning**:
+  - The model iteratively selects the most informative samples from the unlabeled dataset and adds them to the training set.
+  - The process continues until the model's performance converges.
+
+- **Visualization**:
+  - Training and validation loss curves are plotted for each part of the project.
+ 
+#### Results:
+- **Feature Experiment**:
+  - The results of the feature experiment are printed to the console, showing the mean and standard deviation of TSS scores for each feature set combination.
+  - Confusion matrices for each feature set combination are plotted, showing the true positive, false positive, true negative, and false negative rates.
+  - A plot of TSS scores across all folds for each feature set combination is displayed, allowing for visual comparison of model performance.
+
 ## Table of Contents
 1. [Installation](#installation)
 2. [Usage](#usage)
