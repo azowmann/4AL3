@@ -89,10 +89,10 @@ data_experiment()
 
 ## Project Structure
 
-data2010/        # Contains the 2010 dataset files.
-data2020/        # Contains the 2020 dataset files.
-assignment1.py   # The script for Assignment 1 (GDP vs Happiness and Abalone Age Prediction).
-assignment2.py   # The script for Assignment 2 (SVM for Feature and Dataset Analysis).
+- `data2010/` - Contains the 2010 dataset files.
+- `data2020/` - Contains the 2020 dataset files.
+- `assignment1.py` - The script for Assignment 1 (GDP vs Happiness and Abalone Age Prediction).
+- `assignment2.py` - The script for Assignment 2 (SVM for Feature and Dataset Analysis).
 
 ## Implementation Details
 
