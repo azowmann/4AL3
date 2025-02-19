@@ -59,7 +59,6 @@ This project involves the implementation and evaluation of a Support Vector Mach
 3. [Project Structure](#project-structure)
 4. [Implementation Details](#implementation-details)
 5. [Results](#results)
-6. [License](#license)
 
 ---
 
@@ -88,14 +87,14 @@ feature_experiment()
 # Run the data experiment to compare performance on 2010 and 2020 datasets
 data_experiment()
 
-Project Structure
+## Project Structure
 
 data2010/        # Contains the 2010 dataset files.
 data2020/        # Contains the 2020 dataset files.
 assignment1.py   # The script for Assignment 1 (GDP vs Happiness and Abalone Age Prediction).
 assignment2.py   # The script for Assignment 2 (SVM for Feature and Dataset Analysis).
 
-Implementation Details
+## Implementation Details
 
 Assignment 1:
 
@@ -109,7 +108,7 @@ Feature Experiment: Evaluates all combinations of feature sets (FS-I, FS-II, FS-
 
 Data Experiment: Compares model performance on 2010 and 2020 datasets using the best-performing feature set combination.
 
-Results
+## Results
 
 Assignment 1:
 
@@ -121,6 +120,3 @@ Feature Experiment: The best-performing feature set combination is identified an
 
 Data Experiment: Performance comparison between 2010 and 2020 datasets is visualized using TSS scores and confusion matrices.
 
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
