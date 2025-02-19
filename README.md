@@ -124,7 +124,7 @@ This project is divided into two main parts:
   - Training: The model is trained using Stochastic Gradient Descent (SGD) with a learning rate of 0.001 for 15 epochs.
   - Evaluation: The model's performance is evaluated on the test set, and training/validation loss curves are plotted.
 
-- **Part 2: Compas Dataset Analysis**:
+- **Part 2: COMPAS Dataset Analysis**:
   - Dataset: The COMPAS dataset contains features related to criminal defendants, including demographics, criminal history, and recidivism risk scores.
   - Preprocessing:
       - Continuous features are scaled using StandardScaler.
@@ -136,6 +136,15 @@ This project is divided into two main parts:
       - Accuracy is calculated on the test set.
       - Equalized odds are computed to evaluate fairness across different racial groups.
       - The dataset is balanced to ensure equal representation of classes within each racial group, and the model is retrained and evaluated.
+
+#### Results:
+- **Part 1: FashionMNIST Classification**:
+  - Training and Validation Loss: Plotted as a function of epochs.
+  - Test Accuracy: Reported after training.
+
+- **Part 2: COMPAS Dataset Analysis**:
+  - Model Accuracy: Reported for both unbalanced and balanced datasets.
+  - Equalized Odds: True Positive Rate (TPR) and False Positive Rate (FPR) are calculated for each racial group to assess fairness.
 
 ---
 
