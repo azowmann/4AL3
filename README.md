@@ -6,7 +6,7 @@
 
 ## Table of Contents
 1. [Assignment 1: GDP vs Happiness and Abalone Age Prediction](#assignment-1-gdp-vs-happiness-and-abalone-age-prediction)
-2. [Usage](#usage)
+2. [Assignment 2: Support Vector Machine (SVM) for Feature and Dataset Analysis](#assignment-2-support-vector-machine-(svm)-for-feature-and-dataset-analysis)
 3. [Project Structure](#project-structure)
 4. [Implementation Details](#implementation-details)
 5. [Results](#results)
