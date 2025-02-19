@@ -102,6 +102,42 @@ The project is divided into three parts:
   - The model starts with a small labeled dataset and iteratively adds samples from the unlabeled dataset.
   - Convergence: Training stops when the loss improvement is negligible.
   - Metrics: Final accuracy, precision, and recall are reported.
+ 
+---
+
+### Assignment 4: Convolutional Neural Network (CNN) Classifier for FashionMNIST Dataset
+
+This project combines image classification and fairness analysis in predictive modeling using two distinct datasets: The FashionMNIST dataset provided by Zalando Research, and the COMPAS dataset, used for fairness analysis in machine learning. 
+
+This project is divided into two main parts:
+1. **FashionMNIST Classification**: A Convolutional Neural Network (CNN) is implemented to classify images from the FashionMNIST dataset.
+2. **COMPAS Dataset Analysis**: A Logistic Regression Model (LRM) is used to predict recidivism risk scores from the COMPAS dataset, with a focus on fairness and equalized odds.
+
+#### Implementation Details:
+
+- **Part 1: FashionMNIST Classification**
+  - Dataset: The FashionMNIST dataset consists of 60,000 training images and 10,000 test images of fashion items across 10 classes
+  - Model: A Convolutional Neural Network (CNN) is implemented with the following architecture:
+      - Three convolutional layers with ReLU activation.
+      - Two fully connected layers.
+      - Max-pooling layers for downsampling.
+  - Training: The model is trained using Stochastic Gradient Descent (SGD) with a learning rate of 0.001 for 15 epochs.
+  - Evaluation: The model's performance is evaluated on the test set, and training/validation loss curves are plotted.
+
+- **Part 2: Compas Dataset Analysis**:
+  - Dataset: The COMPAS dataset contains features related to criminal defendants, including demographics, criminal history, and recidivism risk scores.
+  - Preprocessing:
+      - Continuous features are scaled using StandardScaler.
+      - Categorical features are one-hot encoded.
+      - The target variable is binary: 1 for high risk and 0 for low risk.
+  - Model: A Logistic Regression Model (LRM) is implemented using PyTorch.
+  - Training: The model is trained using SGD with a learning rate of 0.001 for 50 epochs.
+  - Evaluation:
+      - Accuracy is calculated on the test set.
+      - Equalized odds are computed to evaluate fairness across different racial groups.
+      - The dataset is balanced to ensure equal representation of classes within each racial group, and the model is retrained and evaluated.
+
+---
 
 ## Table of Contents
 1. [Installation](#installation)
