@@ -4,6 +4,13 @@
 
 ### Each Assignment is described below:
 
+## Table of Contents
+1. [Assignment 1](#Assignment 1: GDP vs Happiness and Abalone Age Prediction)
+2. [Usage](#usage)
+3. [Project Structure](#project-structure)
+4. [Implementation Details](#implementation-details)
+5. [Results](#results)
+
 ---
 
 ### Assignment 1: GDP vs Happiness and Abalone Age Prediction
@@ -148,12 +155,7 @@ This project is divided into two main parts:
 
 ---
 
-## Table of Contents
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Project Structure](#project-structure)
-4. [Implementation Details](#implementation-details)
-5. [Results](#results)
+
 
 ---
 
