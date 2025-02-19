@@ -35,6 +35,7 @@ You can install the required libraries using `pip`:
 
 ```bash
 pip install numpy pandas matplotlib seaborn
+bash```
 
 ### Assignment 2
 
