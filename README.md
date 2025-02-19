@@ -81,10 +81,10 @@ pip install numpy pandas matplotlib seaborn scikit-learn
 
 To run the experiments, simply call the feature_experiment() and data_experiment() functions in the script. The results will be printed to the console and visualized using plots.
 
-# Run the feature experiment to evaluate different feature set combinations
+#### Run the feature experiment to evaluate different feature set combinations
 feature_experiment()
 
-# Run the data experiment to compare performance on 2010 and 2020 datasets
+#### Run the data experiment to compare performance on 2010 and 2020 datasets
 data_experiment()
 
 ## Project Structure
