@@ -18,6 +18,39 @@ This project consists of two parts:
 1. **Linear Regression on GDP vs Happiness Data**: A linear regression model is implemented to analyze the relationship between GDP per capita and happiness scores using gradient descent and ordinary least squares (OLS).
 2. **Polynomial Regression on Abalone Age Prediction**: A polynomial regression model is used to predict the age of abalones (measured in rings) based on physical measurements, with k-fold cross-validation for evaluation.
 
+#### Implementation Details:
+
+- **Part 1: GDP vs Happiness**:
+  - Data Preprocessing:
+      - Filters data for the year 2018.
+      - Drops irrelevant columns and handles missing values.
+      - Normalizes the data for better convergence during gradient descent.
+  - Linear Regression:
+      - Implements gradient descent with varying learning rates and iteration counts.
+      - Compares results with OLS for accuracy.
+  - Visualization:
+      - Plots the dataset and regression lines for different hyperparameters.
+
+- **Part 2: Abalone Age Prediction**:
+  - Data Preprocessing:
+      - Normalizes the input features and target variable.
+      - Splits the data into k-folds for cross-validation.
+  - Polynomial Regression:
+      - Uses polynomial features (up to degree 3) for regression.
+      - Trains the model using OLS and evaluates it using k-fold cross-validation.
+  - Visualization:
+      - Plots the relationship between each feature and the target variable (rings).
+      - Displays regression lines for each fold.
+
+#### Results:
+- **GDP vs Happiness**:
+  - The gradient descent results are compared with OLS, and the best-performing model is visualized.
+  - The final beta values and MSE are printed for both OLS and gradient descent.
+
+- **Abalone Age Prediction**
+  - The average MSE across all folds is calculated and displayed.
+  - Regression lines for each fold are plotted against the dataset.
+
 ---
 
 ### Assignment 2: Support Vector Machine (SVM) for Feature and Dataset Analysis
